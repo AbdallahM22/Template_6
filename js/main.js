@@ -48,7 +48,6 @@ window.addEventListener("scroll", function () {
     if(window.scrollY >= awesomeSection.offsetTop - 250) {
         if (!started) {
             stats.forEach((st)=> startCount(st.firstElementChild.nextElementSibling));
-            console.log("of");
         }
         started = true;
     }
